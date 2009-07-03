@@ -1,0 +1,106 @@
+<?php
+/* SVN FILE: $Id: app_controller.php 7805 2008-10-30 17:30:26Z AD7six $ */
+/**
+ * Short description for file.
+ *
+ * This file is application-wide controller file. You can put all
+ * application-wide controller-related methods here.
+ *
+ * PHP versions 4 and 5
+ *
+ * CakePHP(tm) :  Rapid Development Framework (http://www.cakephp.org)
+ * Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @filesource
+ * @copyright     Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
+ * @link          http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
+ * @package       cake
+ * @subpackage    cake.cake.libs.controller
+ * @since         CakePHP(tm) v 0.2.9
+ * @version       $Revision: 7805 $
+ * @modifiedby    $LastChangedBy: AD7six $
+ * @lastmodified  $Date: 2008-10-30 12:30:26 -0500 (Thu, 30 Oct 2008) $
+ * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
+/**
+ * This is a placeholder class.
+ * Create the same file in app/app_controller.php
+ *
+ * Add your application-wide methods in the class below, your controllers
+ * will inherit them.
+ *
+ * @package       cake
+ * @subpackage    cake.cake.libs.controller
+ */
+class AppController extends Controller {
+
+var	$menus= null;
+	function initialize() {
+       $this->_loadModels();
+    }
+	function beforeRender()
+	{
+		App::import('Controller', 'Menus');
+		$this->menus = new MenusController();
+		$this->menus->constructClasses();
+		return $this->menus->test();
+		
+	}
+	
+	function renderSubmenu($id)
+	{
+		App::import('Controller', 'Submenus');
+		$this->submenus = new SubmenusController();
+		$this->submenus->constructClasses();
+		return $this->submenus->smenu($id);
+	}
+	function sdt($id)
+	{
+		//echo $this->requestAction(array('controller' => 'suppliers', 'action' => 'index'));
+		$sdata = $this->renderSubmenu($id);
+		$this->set('sdata',$sdata);
+		//$this->set('t',$t);
+	}
+
+/*var $components = array('Auth');
+
+/**
+ * Load the Authentication
+ *
+ * @access public
+ */
+	/*function beforeFilter(){
+		//Set up Auth Component
+		$this->Auth->loginAction = array('controller' => 'users', 'action' => 'login');
+		$this->Auth->loginRedirect = array('controller' => 'notes', 'display' => 'index');
+		$this->Auth->logoutRedirect = '/';
+		$this->Auth->allow('display');
+		
+		// Controller autorization is the simplest form.
+		$this->Auth->authorize = 'controller';
+		
+		//  Additional criteria for loging.
+		$this->Auth->userScope = array('User.active' => 1); //user needs to be active.
+	}
+/**
+ * Ensure user is authorized.
+ *
+ * In its purest form, this function MUST be present and return true. It works sort of like a prevalidation for additional criteria. 
+ * I've done a little extra to make sure the user with admin routing is the admin:
+ * If using admin route, ensure user is admin (group_id ==1). If not, don't authorize.
+ * @access public
+ */
+	/*function isAuthorized() {
+		if (isset($this->params[Configure::read('Routing.admin')])) {
+			//  Usage: $this->Auth->user('field_in_user_model');
+			if ($this->Auth->user('group_id') != 1) {
+				return false;
+			}
+		}
+		return true;
+   }*/
+}
+?>

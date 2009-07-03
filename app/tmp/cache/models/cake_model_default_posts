@@ -1,0 +1,2 @@
+1245833498
+a:4:{s:2:"id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:4:"name";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"250";}s:5:"date1";a:2:{s:4:"type";s:4:"date";s:6:"length";s:1:"7";}s:7:"content";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"100";}}

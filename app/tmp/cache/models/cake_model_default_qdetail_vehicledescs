@@ -1,0 +1,2 @@
+1246531619
+a:5:{s:2:"id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:19:"quotation_detail_id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:15:"vehicle_desc_id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:17:"vehicle_desc_name";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"100";}s:12:"quotation_id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}}

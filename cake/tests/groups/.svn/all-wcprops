@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/hnsauto/!svn/ver/1/cake/tests/groups
+END
+acl.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/acl.group.php
+END
+no_database.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/no_database.group.php
+END
+model.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/model.group.php
+END
+xml.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/xml.group.php
+END
+helpers.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/helpers.group.php
+END
+console.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/console.group.php
+END
+cache.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/cache.group.php
+END
+lib.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/lib.group.php
+END
+no_cross_contamination.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/no_cross_contamination.group.php
+END
+view.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/view.group.php
+END
+configure.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/configure.group.php
+END
+controller.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/controller.group.php
+END
+components.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/components.group.php
+END
+test_suite.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/test_suite.group.php
+END
+socket.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/socket.group.php
+END
+routing_system.group.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hnsauto/!svn/ver/1/cake/tests/groups/routing_system.group.php
+END

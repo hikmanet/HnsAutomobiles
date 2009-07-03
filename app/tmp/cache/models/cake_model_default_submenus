@@ -1,0 +1,2 @@
+1246531617
+a:6:{s:2:"id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:4:"name";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"200";}s:7:"menu_id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:6:"action";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"250";}s:6:"descrp";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"250";}s:6:"active";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}}

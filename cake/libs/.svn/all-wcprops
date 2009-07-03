@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/hnsauto/!svn/ver/25/cake/libs
+END
+error.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/hnsauto/!svn/ver/1/cake/libs/error.php
+END
+overloadable_php4.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hnsauto/!svn/ver/1/cake/libs/overloadable_php4.php
+END
+validation.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/hnsauto/!svn/ver/1/cake/libs/validation.php
+END
+flay.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/hnsauto/!svn/ver/1/cake/libs/flay.php
+END
+overloadable_php5.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hnsauto/!svn/ver/1/cake/libs/overloadable_php5.php
+END
+set.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/hnsauto/!svn/ver/1/cake/libs/set.php
+END
+class_registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hnsauto/!svn/ver/1/cake/libs/class_registry.php
+END
+overloadable.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hnsauto/!svn/ver/1/cake/libs/overloadable.php
+END
+xml.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/hnsauto/!svn/ver/1/cake/libs/xml.php
+END
+cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/hnsauto/!svn/ver/1/cake/libs/cache.php
+END
+cake_log.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/hnsauto/!svn/ver/1/cake/libs/cake_log.php
+END
+object.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/hnsauto/!svn/ver/1/cake/libs/object.php
+END
+string.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/hnsauto/!svn/ver/1/cake/libs/string.php
+END
+security.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/hnsauto/!svn/ver/1/cake/libs/security.php
+END
+l10n.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/hnsauto/!svn/ver/1/cake/libs/l10n.php
+END
+folder.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/hnsauto/!svn/ver/1/cake/libs/folder.php
+END
+multibyte.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/hnsauto/!svn/ver/1/cake/libs/multibyte.php
+END
+i18n.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/hnsauto/!svn/ver/1/cake/libs/i18n.php
+END
+file.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/hnsauto/!svn/ver/1/cake/libs/file.php
+END
+router.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/hnsauto/!svn/ver/1/cake/libs/router.php
+END
+configure.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/hnsauto/!svn/ver/1/cake/libs/configure.php
+END
+session.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/hnsauto/!svn/ver/1/cake/libs/session.php
+END
+debugger.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/hnsauto/!svn/ver/1/cake/libs/debugger.php
+END
+magic_db.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/hnsauto/!svn/ver/1/cake/libs/magic_db.php
+END
+inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/hnsauto/!svn/ver/1/cake/libs/inflector.php
+END
+sanitize.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/hnsauto/!svn/ver/1/cake/libs/sanitize.php
+END
+http_socket.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/hnsauto/!svn/ver/1/cake/libs/http_socket.php
+END
+socket.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/hnsauto/!svn/ver/1/cake/libs/socket.php
+END

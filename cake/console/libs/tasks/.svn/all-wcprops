@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks
+END
+db_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/db_config.php
+END
+extract.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/extract.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/view.php
+END
+plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/plugin.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/test.php
+END
+model.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/model.php
+END
+controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/controller.php
+END
+project.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hnsauto/!svn/ver/1/cake/console/libs/tasks/project.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/hnsauto/!svn/ver/29/app/webroot
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/hnsauto/!svn/ver/1/app/webroot/test.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/hnsauto/!svn/ver/1/app/webroot/.htaccess
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/hnsauto/!svn/ver/1/app/webroot/index.php
+END
+css.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/hnsauto/!svn/ver/1/app/webroot/css.php
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/hnsauto/!svn/ver/1/app/webroot/favicon.ico
+END

@@ -1,0 +1,2 @@
+1246531614
+a:6:{s:2:"id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:13:"supplier_name";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"100";}s:16:"supplier_country";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"100";}s:16:"supplier_address";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"100";}s:14:"supplier_phone";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"100";}s:14:"supplier_email";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"100";}}

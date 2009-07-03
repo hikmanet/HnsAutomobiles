@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/hnsauto/!svn/ver/18/cake/libs/model
+END
+connection_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hnsauto/!svn/ver/1/cake/libs/model/connection_manager.php
+END
+behavior.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hnsauto/!svn/ver/1/cake/libs/model/behavior.php
+END
+app_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hnsauto/!svn/ver/1/cake/libs/model/app_model.php
+END
+model.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/hnsauto/!svn/ver/1/cake/libs/model/model.php
+END
+schema.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hnsauto/!svn/ver/1/cake/libs/model/schema.php
+END
+db_acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hnsauto/!svn/ver/1/cake/libs/model/db_acl.php
+END
