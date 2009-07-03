@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hnsauto/!svn/ver/43/app/views/quotation_details
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hnsauto/!svn/ver/43/app/views/quotation_details/view.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hnsauto/!svn/ver/43/app/views/quotation_details/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hnsauto/!svn/ver/43/app/views/quotation_details/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hnsauto/!svn/ver/43/app/views/quotation_details/add.ctp
+END

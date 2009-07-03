@@ -1,0 +1,20 @@
+
+<div id='pagination' align='center'>
+<?php
+    if($pagination->setPaging($paging)):
+    $leftArrow = $html->image("nav/arrowleft.gif", Array('height'=>15));
+    $rightArrow = $html->image("nav/arrowright.gif", Array('height'=>15));
+	
+    $prev = $pagination->prevPage($leftArrow,false);
+    $prev = $prev?$prev:$leftArrow;
+    $next = $pagination->nextPage($rightArrow,false);
+    $next = $next?$next:$rightArrow;
+
+    $pages = $pagination->pageNumbers(" | ");
+	
+    echo $pagination->result()."&nbsp;&nbsp;&nbsp;";
+    echo $prev." ".$pages." ".$next."&nbsp;&nbsp;&nbsp;";
+    echo $pagination->resultsPerPage(NULL, ' ');
+    endif;
+?>
+</div>

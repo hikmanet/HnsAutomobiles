@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/hnsauto/!svn/ver/18/app/views/vehicle_types
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hnsauto/!svn/ver/1/app/views/vehicle_types/view.ctp
+END
+sdt.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hnsauto/!svn/ver/18/app/views/vehicle_types/sdt.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hnsauto/!svn/ver/1/app/views/vehicle_types/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hnsauto/!svn/ver/18/app/views/vehicle_types/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hnsauto/!svn/ver/1/app/views/vehicle_types/add.ctp
+END

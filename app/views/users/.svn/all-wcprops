@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/hnsauto/!svn/ver/18/app/views/users
+END
+userinfo.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hnsauto/!svn/ver/1/app/views/users/userinfo.thtml
+END
+register.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hnsauto/!svn/ver/1/app/views/users/register.thtml
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/hnsauto/!svn/ver/1/app/views/users/index.ctp
+END
+login.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hnsauto/!svn/ver/18/app/views/users/login.ctp
+END
+change_password.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hnsauto/!svn/ver/1/app/views/users/change_password.thtml
+END
