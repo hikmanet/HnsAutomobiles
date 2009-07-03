@@ -3,8 +3,8 @@ class QuotationsController extends AppController
 { 
 	public $name = 'Quotations'; 
 	var $components = array ('Pagination','RequestHandler'); // Added 
-    var $helpers = array('Html', 'Form','Pagination','Javascript','Ajax');
-	var $uses = array('Quotation','QuotationDetail','QdetailVehicledesc','Supplier','Vehicle','VehicleModel','VehicleDesc');
+    var $helpers = array('Pagination','Javascript','Ajax');
+	var $uses = array('Quotation','QuotationDetail','Supplier','Vehicle','VehicleModel','VehicleDesc');
 
 	function index() {
 		$val = $this->beforeRender();
@@ -29,7 +29,7 @@ class QuotationsController extends AppController
 		
 		/*fetch data from quotation*/
 		
-		$i=0;
+		/*$i=0;
 		foreach($quotations as $qid)
 		{
 			$id = $qid['Quotation']['id'];
@@ -39,7 +39,7 @@ class QuotationsController extends AppController
 		}
 		//echo "<pre>";print_r($qdt);echo "</pre>";
 		//echo "<pre>";echo count($qId);echo "</pre>";
-		$this->set('qdt',$qdt);
+		$this->set('qdt',$qdt);*/
 	}
 	
 	public function view($id)
@@ -80,7 +80,7 @@ class QuotationsController extends AppController
 		$this->set('vehicleDesc',$vehicleDesc);
 			
 		if (!empty($this->data)) {
-			//echo "<pre>";print_r($this->data);echo "</pre>";
+			echo "<pre>";print_r($this->data);echo "</pre>";
 			 //$this->Quotation->create();
 			 //if ($this->Quotation->save($this->data['Quotation'])) {
 			 
@@ -92,19 +92,8 @@ class QuotationsController extends AppController
 			//$this->data['QdetailVehicledesc']['quotation_detail_id'] = $this->QuotationDetail->id;
 			//echo "<pre>";print_r($this->data);echo "</pre>";
 			
-			
 			$this->Quotation->saveAll($this->data);
-			$this->QuotationDetail->bindModel(
-        array('hasOne' => array(
-                'QdetailVehicledesc' => array(
-                    'className' => 'QdetailVehicledesc'
-                )
-            )
-        )
-    );
-			echo "<pre>";print_r($this->data);echo "</pre>";
-			$this->QuotationDetail->save($this->data['QdetailVehicledesc']);
-			 $this->Session->setFlash(__('The Vehicle data has been saved', true));
+			$this->Session->setFlash(__('The Vehicle data has been saved', true));
 			// $this->redirect(array('action'=>'index'));
 		 }
 	}
