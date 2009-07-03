@@ -1,0 +1,60 @@
+
+<tr style='background-color:#E9ECF1;' class='BDJLebels'><td class='BDJLebels'>Vehicle Description</td><td colspan='3'><table width='100%' border='0'><? $i=0;$vd=0;foreach($vehicleDesc as $data):if($i%2==0){?><tr class='BDJLebels'><td width='25%' align='right'><?php echo $data['VehicleDesc']['vehicle_desc_title'].":";?><input type='hidden' name='data[QdetailVehicledesc]["+m+"][<?=$vd?>][vehicle_desc_id]' id='QdetailVehicledescVehicleDescId' value='<?=$data['VehicleDesc']['id']?>'></td><td width='25%' align='left'><?php if($data['VehicleDesc']['vehicle_desc_type']=="textbox"){?><input type='text' name='data[QdetailVehicledesc]["+m+"][<?=$vd?>][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledescid' size='25'><? }else{?><select name='data[QdetailVehicledesc]["+m+"][<?=$vd?>][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledesc_id'><option value='Yes'>Yes</option><option value='No'>No</option></select><? }?></td><? }else{?><td width='25%' align='right'><?php echo $data['VehicleDesc']['vehicle_desc_title'].":";?><input type='hidden' name='data[QdetailVehicledesc]["+m+"][<?=$vd?>][vehicle_desc_id]' id='QdetailVehicledescVehicleDescId' value='<?=$data['VehicleDesc']['id']?>'></td><td width='25%' align='left'><?php if($data['VehicleDesc']['vehicle_desc_type']=="textbox"){?><input type='text' name='data[QdetailVehicledesc]["+m+"][<?=$vd?>][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledescid' size='25'><? }else{?><select name='data[QdetailVehicledesc]["+m+"][<?=$vd?>][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledesc_id'><option value='Yes'>Yes</option><option value='No'>No</option></select><? }?></tr><? }$vd++;$i++;endforeach;?></table></td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr style="background-color:#E9ECF1;" class="BDJLebels">
+		 <td class="BDJLebels">Vehicle Description</td>
+		 <td colspan="3">
+		  <table width="100%" border="0">
+	 <?
+	 //echo "<pre>";print_r($vehicleDesc);echo "</pre>";
+	 $i=0;
+	 $vd=0;
+	 foreach($vehicleDesc as $data):
+	 
+	if($i%2==0)
+	 {
+	 ?>
+	  <tr class="BDJLebels">
+		<td width="25%" align='right'><?php echo $data['VehicleDesc']['vehicle_desc_title']." :"; echo "<input type='hidden' name='data[QdetailVehicledesc][0][".$vd."][vehicle_desc_id]' id='QdetailVehicledescVehicleDescId' value='".$data['VehicleDesc']['id']."'>"; ?></td>
+		<td width="25%" align='left'><?php if($data['VehicleDesc']['vehicle_desc_type']=="textbox"){
+		echo "<input type='text' name='data[QdetailVehicledesc][0][".$vd."][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledescid' size='25'>";
+		}
+		else
+		{
+			echo "<select name='data[QdetailVehicledesc][0][".$vd."][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledesc_id'><option value='Yes'>Yes</option><option value='No'>No</option></select>";
+		}
+		?></td>
+		<?
+		}
+		else
+		{
+		?>
+		<td width="25%" align='right'><?php echo $data['VehicleDesc']['vehicle_desc_title']." :"; echo "<input type='hidden' name='data[QdetailVehicledesc][0][".$vd."][vehicle_desc_id]' id='QdetailVehicledescVehicleDescId' value='".$data['VehicleDesc']['id']."'>"; ?></td>
+		<td width="25%" align='left'><?php if($data['VehicleDesc']['vehicle_desc_type']=="textbox"){
+		echo "<input type='text' name='data[QdetailVehicledesc][0][".$vd."][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledescid' size='25'>";
+		}
+		else
+		{
+			echo "<select name='data[QdetailVehicledesc][0][".$vd."][qdetail_vehicledesc_id]' id='QdetailVehicledescqdetail_vehicledesc_id'><option value='Yes'>Yes</option><option value='No'>No</option></select>";
+		}
+		?>
+  		</tr>
+		<?
+		}
+			$vd++;
+	  $i++;
+	  endforeach; ?>
+	</table>
+		  </td></tr>
